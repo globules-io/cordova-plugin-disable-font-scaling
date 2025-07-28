@@ -1,19 +1,23 @@
 {
-  "name": "@globules-io/cordova-plugin-disable-font-scaling",
-  "version": "1.0.0",
-  "description": "Cordova Disable Font Scaling",
-  "cordova": {
-    "id": "cordova-plugin-device",
-    "platforms": [
-      "android"
-    ]
-  },  
-  "keywords": [
-    "cordova",
-    "device",
-    "ecosystem:cordova",
-    "cordova-android"
-  ],  
-  "author": "Apache Software Foundation",
-  "license": "Apache-2.0"  
+     "name": "@globules-io/cordova-plugin-disable-font-scaling",
+     "version": "1.0.0",
+     "description": "Cordova Disable Font Scaling",
+     "cordova": {
+          "id": "cordova-plugin-device",
+          "platforms": [
+               "android"
+          ]
+     },
+     "repository": {
+          "type": "git",
+          "url": "https://github.com/globules-io/cordova-plugin-disable-font-scaling"
+     },
+     "keywords": [
+          "cordova",
+          "device",
+          "ecosystem:cordova",
+          "cordova-android"
+     ],
+     "author": "Apache Software Foundation",
+     "license": "Apache-2.0"
 }
