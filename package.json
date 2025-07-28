@@ -15,9 +15,9 @@
      },
      "keywords": [
           "cordova",
-          "device",
           "ecosystem:cordova",
-          "cordova-android"
+          "cordova-android",
+          "cordova-ios"
      ],
      "author": "globules.io",
      "license": "MIT"
