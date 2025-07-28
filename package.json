@@ -3,9 +3,10 @@
      "version": "1.0.0",
      "description": "Cordova Disable Font Scaling",
      "cordova": {
-          "id": "cordova-plugin-device",
+          "id": "@globules-io/cordova-plugin-disable-font-scaling",
           "platforms": [
-               "android"
+               "android",
+               "ios"
           ]
      },
      "repository": {
