@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="@globules-io/cordova-plugin-disable-font-scaling"
+    version="1.0.0">
+
+    <name>Disable Font Scaling</name>
+    <description>Cordova Disable Font Scaling Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,font,size</keywords>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="DisableFontScaling">
+                <param name="android-package" value="io.globules.DisableFontScaling" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/DisableFontScaling.java" target-dir="src/io/globules/disablefontscaling" />
+    </platform>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="DisableFontScaling">
+                <param name="ios-package" value="DisableFontScaling"/>
+                <param name="onload" value="true"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/DisableFontScaling.m"/>
+    </platform>
+    
+</plugin>
