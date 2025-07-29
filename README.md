@@ -16,5 +16,5 @@ To install the plugin, run
 To remove the plugin, run
 
 ```bash
-  cordova plugin remove @globules-io/cordova-plugin-disable-font-scaling
+  cordova plugin rm @globules-io/cordova-plugin-disable-font-scaling
 ```
