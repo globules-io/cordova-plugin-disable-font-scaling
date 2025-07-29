@@ -1,5 +1,20 @@
-# cordova-plugin-disable-font-scaling
-cordova disable font scaling on Android and iOS
+# Cordova Plugin Disable Font Scaling
 
-> Install : cordova plugin add @globules-io/cordova-plugin-disable-font-scaling
+Disable font scaling for Android and iOS
 
+
+## Installation
+
+To install the plugin, run
+
+```bash
+  cordova plugin add @globules-io/cordova-plugin-disable-font-scaling
+```
+
+## Uninstall
+
+To remove the plugin, run
+
+```bash
+  cordova plugin remove @globules-io/cordova-plugin-disable-font-scaling
+```
