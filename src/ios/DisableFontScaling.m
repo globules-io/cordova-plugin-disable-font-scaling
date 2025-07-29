@@ -18,7 +18,7 @@
                 if (error) {
                     NSLog(@"DisableFontScaling: Error injecting JS: %@", error.localizedDescription);
                 } else {
-                    NSLog(@"DisableFontScaling: Successfully set webkitTextSizeAdjust to 100%");
+                    NSLog(@"DisableFontScaling: Successfully set webkitTextSizeAdjust to 100%%");
                 }
             }];
         } else {
